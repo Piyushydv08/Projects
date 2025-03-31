@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Card</title>
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: #3a4cae;
+            background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            width: 700px;
+            height: 350px;
+
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            color: beige;
+        }
+        .leftbox{
+            width: 50%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 30px;
+        }
+        .stepbox{
+            padding: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .rightbox img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftbox">
+                <div class="heading">
+                    <h1>
+                        Get insights that help your business grow
+                    </h1>
+                </div>
+                <div class="para"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut molestiae animi, voluptates tempore laudantium! Obcaecati odit unde voluptatem consectetur.
+                </div>
+                <div class="stepbox">
+                    <span>
+                        <h2>10k+</h2>
+                        <p>Comments</p>
+                    </span>
+                    <span>
+                        <h2>214</h2>
+                        <p>Paid Users</p>
+                    </span>
+                    <span>
+                        <h2>12M+</h2>
+                        <p>Years</p>
+                    </span>
+                </div>
+            </div>
+            <div class="rightbox">
+                <img src="icon.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
