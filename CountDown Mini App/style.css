@@ -18,7 +18,7 @@ body{
 }
 
 h1{
-    margin-top: 2rem;
+    margin-top: 1rem; /* Decreased from 2rem */
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
@@ -39,12 +39,14 @@ h2{
 
 #countdown div{
     text-align: center;
-    padding: 30px;
+    padding: 18px 16px; /* Decreased size */
     background-color: rgb(217, 215, 211);
     color: rgba(0, 0, 0, 0.808);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    min-width: 70px;
+    margin: 0 6px;
 }
 
 span{
@@ -68,3 +70,53 @@ span{
     transition: width 1s ease-in-out;
     
 }
+
+
+
+#input button {
+    padding: 0.8rem 2rem; 
+    background: linear-gradient(90deg, #c2b6ab 0%, #2f2e2a 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(124,119,119,0.10);
+    transition: background 0.2s, transform 0.1s, color 0.2s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 60px;
+    width: 200px;
+}
+
+#input button:hover {
+    background: linear-gradient(90deg, #191717 0%, #bcbfc3b9 100%);
+    color: #222;
+    transform: translateY(-2px) scale(1.05);
+}
+
+#input{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#input p{
+    font-size: larger;
+    color: rgba(124, 119, 119, 0.979);
+    padding: 0.5rem 1rem;
+    border: 1px solid #b0b0c7;
+    border-radius: 6px;
+    background: #f4f4fa;
+    color: #333;
+    font-size: 1rem;
+    transition: border 0.2s;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
